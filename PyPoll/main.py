@@ -40,6 +40,6 @@ analysis_summary += (
 print(analysis_summary)
 
 # Save results to a text file
-output_file_path = 'election_results.txt'
+output_file_path = 'printed_election_results.txt'
 with open(output_file_path, 'w') as file:
     file.write(analysis_summary)
